@@ -13,7 +13,17 @@ To reproduce our results on Best performing model In ``LFGB" you can download th
 To prepare the other dataset just download all the files present in this folder and unzip the zip file. Then run the following 
 
 ```bash
-python3 data_prep.py --dataset="/sentence_dict/" --first_path="sentence_mthd_1.pkl" --methd_path="method_final.pkl" --cg=False --not_req_mthds="not_rq_ent.txt" --train_csv="method_train.csv" --valid_csv="method_valid.csv" --test_csv="method_test.csv" --train_txt="Output_dir/train.txt" --valid_txt="Output_dir/valid.txt" --test_txt="Output_dir/test.txt"
+python3 data_prep.py --dataset="/sentence_dict/"\
+--first_path="sentence_mthd_1.pkl"\
+--methd_path="method_final.pkl"\
+--cg=False\
+--not_req_mthds="not_rq_ent.txt"\
+--train_csv="method_train.csv"\
+--valid_csv="method_valid.csv"\
+--test_csv="method_test.csv"\
+--train_txt="Output_dir/train.txt"\
+--valid_txt="Output_dir/valid.txt"\
+--test_txt="Output_dir/test.txt"
 ```
 
 ## Training
