@@ -8,7 +8,7 @@ pip3 install seqeval
 ```
 
 ## Dataset
-Once our paper get published, we will release our prepared dataset and as well as it's corresponding required source code.
+To reproduce our results on Best performing model In ``LFGB" you can download the dataset from this link [Link](https://drive.google.com/drive/folders/1oX6c6Xzj6EWIxP_QgUCfcKhHFOk-0Ir0?usp=sharing)
 
 ## Training
 Run the following script to train the model.
